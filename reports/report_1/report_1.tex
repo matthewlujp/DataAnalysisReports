@@ -1,0 +1,191 @@
+\documentclass[fleqn]{jsarticle}
+
+\usepackage{amsmath,amssymb}
+\usepackage{amsmath}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhead[RE,RO]{先端データ解析論 レポート}
+
+\begin{document}
+
+\title{先端データ解析論　第1回レポート}
+\author{電子情報学専攻　48-176403 石毛真修}
+\maketitle
+
+
+\section*{大問1.}
+\subsection*{A.}
+  \begin{equation*}
+    p(X=好, Y=眠) = p(X=好) \times p(Y=眠|X=好) = 0.2
+  \end{equation*}
+
+\subsection*{B.}
+  \begin{equation*}
+    \begin{aligned}
+      &p(X=嫌, Y=眠) = p(X=嫌) \times p(Y=眠|X=嫌) = 0.05\\
+      &p(X=眠) = P(X=好, Y=眠) + p(X=嫌, Y=眠) = 0.25
+    \end{aligned}
+  \end{equation*}
+
+\subsection*{C.}
+  \begin{equation*}
+    p(X=好|Y=眠) = \frac{p(X=好, Y=眠)}{p(X=眠)} = 0.8\\
+  \end{equation*}
+
+\subsection*{D.}
+  統計の好き嫌いと授業中眠くなるかどうかが独立であるか？
+  \begin{equation*}
+    \begin{aligned}
+      &p(X=好, Y=眠) = 0.2\\
+      &p(X=好) \times p(Y=眠) = 0.2\\
+      &\therefore p(X=好, Y=眠) = p(X=好) \times p(Y=眠)
+    \end{aligned}
+  \end{equation*}
+
+  \begin{equation*}
+    \begin{aligned}
+      &p(X=嫌, Y=眠) = 0.05\\
+      &p(X=好) \times p(Y=眠) = 0.05\\
+      &\therefore p(X=嫌, Y=眠) = p(X=嫌) \times p(Y=眠)
+    \end{aligned}
+  \end{equation*}
+
+  \begin{equation*}
+    \begin{aligned}
+      &p(Y=覚|X=好) = 1 - p(Y=眠|X=好) = 0.75\\
+      &p(X=好, Y=覚) = p(Y=覚|X=好) \times p(X=好) = 0.6\\
+      &p(Y=覚|X=嫌) = 1 - p(Y=眠|X=嫌) = 0.75\\
+      &p(X=嫌, Y=覚) = p(Y=覚|X=嫌) \times p(X=嫌) = 0.15\\
+      &p(Y=覚) = p(X=好, Y=覚) + p(X=嫌, Y=覚) = 0.75\\
+      &p(X=好) \times p(Y=覚) = 0.6\\
+      &\therefore p(X=好, Y=覚) = p(X=好) \times p(Y=覚)
+    \end{aligned}
+  \end{equation*}
+
+  \begin{equation*}
+    \begin{aligned}
+      &p(Y=覚|X=嫌) = 1 - p(Y=眠|X=嫌) = 0.75\\
+      &p(X=嫌, Y=覚) = p(Y=覚|X=嫌) \times p(X=嫌) = 0.15\\
+      &p(X=嫌) \times p(Y=覚) = 0.15\\
+      &\therefore p(X=好, Y=覚) = p(X=好) \times p(Y=覚)
+    \end{aligned}
+  \end{equation*}
+  \\
+  以上から，統計の好き嫌いと授業中眠くなるかどうかは独立である．
+
+
+\section*{大問2.}
+\subsection*{A.}
+  $E[c] = c$\ を示す．
+
+  \subsubsection*{証明：}
+    \noindent f(x)をXの確率密度関数とすると，
+    \begin{equation*}
+      \begin{aligned}
+        E[c] &= \int_{-\infty}^{\infty} dx\ c\ f(x)\\
+        &= c \int_{-\infty}^{\infty} dx\ f(x)\\
+        &= c\ \ \ 確率密度関数の定義より
+      \end{aligned}
+    \end{equation*}
+
+\subsection*{B.}
+  $E[X+X'] = E[X] + E[X']$\ を示す
+
+  \subsubsection*{証明：}
+    \noindent $X$と$X'$の実現値をそれぞれ$x_1$，$x_2$とし，
+    $f(x_1, x_2)$を$X$と$X'$の同時確率密度関数，
+    $f_1(x)$と$f_2(x)$をそれぞれ$X$と$X'$の確率密度関数とする．
+    \begin{equation*}
+      \begin{aligned}
+        E[X+X'] &= \int_{-\infty}^{\infty} \int_{-\infty}^{\infty} dx_1\ dx_2\ (x_1 + x_2)\ f(x_1, x_2)\\
+        &= \int_{-\infty}^{\infty} dx_1\ x_1\int_{-\infty}^{\infty} dx_2\ f(x_1, x_2) + \int_{-\infty}^{\infty} dx_2\ x_2\int_{-\infty}^{\infty} dx_1\ f(x_1, x_2)\\
+        &= \int_{-\infty}^{\infty} dx_1\ x_1\ f_1(x_1) + \int_{-\infty}^{\infty} dx_2\ x_2\ f_2(x_2)\ \ \ 周辺化\\
+        &= E[X] + E[X']
+      \end{aligned}
+    \end{equation*}
+
+\subsection*{C.}
+  $E[cX] = cE[X]$\ を示す
+
+  \subsubsection*{証明：}
+    \noindent $f(x)$を$X$の確率密度関数とすると，
+    \begin{equation*}
+      \begin{aligned}
+        E[cX] &= \int_{-\infty}^{\infty} dx\ cx\ f(x)\\
+        &= c \int_{-\infty}^{\infty} dx\ x\ f(x)\\
+        &= cE[X]
+      \end{aligned}
+    \end{equation*}
+
+
+\section*{大問3.}
+\subsection*{A.}
+  $V[c] = 0$\ を示す．
+
+  \subsubsection*{証明：}
+    \noindent $f(x)$を定数$c$の確率密度関数とする．
+    \begin{equation*}
+      \begin{aligned}
+        \mu &= E[c] = c\\
+      \end{aligned}
+    \end{equation*}
+    \begin{equation*}
+      \begin{aligned}
+        V[c] &= \int_{-\infty}^{\infty} dx\ (c - \mu)^2\ f(x)\\
+        &= \int_{-\infty}^{\infty} dx\ (c - c)^2\ f(x)\\
+        &= 0
+      \end{aligned}
+    \end{equation*}
+
+\subsection*{B.}
+  $V[X+c] = V[X]$\ を示す．
+
+  \subsubsection*{証明：}
+    \noindent $f(x)$を$X$の確率密度関数とする．
+    \begin{equation*}
+      \begin{aligned}
+        \mu = E[X+c] = E[X] + E[c] = E[x] + c\\
+      \end{aligned}
+    \end{equation*}
+    \begin{equation*}
+      \begin{aligned}
+        V[X+c] &= \int_{-\infty}^{\infty} dx\ \{(x+c) - \mu\}^2\ f(x)\\
+        &= \int_{-\infty}^{\infty} dx\ \{(x+c) - (E[x]+c)\}^2\ f(x)\\
+        &= \int_{-\infty}^{\infty} dx\ \{x - E[x]\}^2\ f(x)\\
+        &= V[X]
+      \end{aligned}
+    \end{equation*}
+
+\subsection*{C.}
+  $V[X+X'] = V[X] + V[X'] + 2Cov(X, X')$\ を示す．
+
+  \subsubsection*{証明：}
+    \noindent $X$と$X'$の実現値をそれぞれ$x_1$，$x_2$とし，
+    $f(x_1, x_2)$を$X$と$X'$の同時確率密度関数，
+    $f_1(x)$と$f_2(x)$をそれぞれ$X$と$X'$の確率密度関数とする．
+
+    \begin{equation*}
+      \begin{aligned}
+        \mu = E[X+X'] = E[X] + E[X']\\
+      \end{aligned}
+    \end{equation*}
+    \begin{equation*}
+      \begin{aligned}
+        V[X+X'] &= \int_{-\infty}^{\infty} dx\ \{(x_1+x_2) - \mu\}^2\ f(x_1, x_2)\\
+        &= \int_{-\infty}^{\infty}\int_{-\infty}^{\infty} dx_1\ dx_2\ \{(x_1+x_2) - (E[X]+E[X'])\}^2\ f(x_1, x_2)\\
+        &= \int_{-\infty}^{\infty}\int_{-\infty}^{\infty} dx_1\ dx_2\ \{(x_1+x_2)^2 + (E[X]+E[X'])^2 - 2(x_1+x_2)(E[X]+E[X'])\}\ f(x_1, x_2)\\
+        &= \int_{-\infty}^{\infty}\int_{-\infty}^{\infty} dx_1\ dx_2\ \{(x_1-E[X])^2 + (x_2-E[X'])^2 + 2(x_1-E[X])(x_2-E[X'])\}\ f(x_1, x_2)\\
+        &= \int_{-\infty}^{\infty} dx_1\ (x_1-E[X])^2 \int_{-\infty}^{\infty} dx_2\ f(x_1, x_2)
+         + \int_{-\infty}^{\infty} dx_2\ (x_2-E[X'])^2 \int_{-\infty}^{\infty} dx_1\ f(x_1, x_2)\\
+         &\ \ \ \ \ \ + \int_{-\infty}^{\infty}\int_{-\infty}^{\infty} dx_1\ dx_2\ 2(x_1-E[X])(x_2-E[X'])\ f(x_1, x_2)\\
+        &= \int_{-\infty}^{\infty} dx_1\ (x_1-E[X])^2\ f_1(x_1)
+         + \int_{-\infty}^{\infty} dx_2\ (x_2-E[X'])^2\ f_2(x_2)\\
+         &\ \ \ \ \ \ + 2 \int_{-\infty}^{\infty}\int_{-\infty}^{\infty} dx_1\ dx_2\ (x_1-E[X])(x_2-E[X'])\ f(x_1, x_2)\\
+        &= V[X] + V[X'] + 2E[(X-E[X])(X'-E[X'])]\\
+        &= V[X] + V[X'] + 2Cov(X, X')
+      \end{aligned}
+    \end{equation*}
+
+
+\end{document}

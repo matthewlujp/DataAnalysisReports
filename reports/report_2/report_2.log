@@ -1,0 +1,416 @@
+This is e-pTeX, Version 3.14159265-p3.7-160201-2.6 (utf8.euc) (TeX Live 2016) (preloaded format=platex 2017.1.16)  25 APR 2017 02:38
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**/Users/luning/Documents/Lectures_Master/DataAnalysis/reports/report_2/report_
+2.tex
+
+(/Users/luning/Documents/Lectures_Master/DataAnalysis/reports/report_2/report_2
+.tex
+pLaTeX2e <2016/11/29> (based on LaTeX2e <2016/03/31> patch level 3)
+Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
+(/usr/local/texlive/2016/texmf-dist/tex/platex/jsclasses/jsarticle.cls
+Document Class: jsarticle 2017/01/13 okumura, texjporg
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/fleqn.clo
+File: fleqn.clo 2015/03/31 v1.1i Standard LaTeX option (flush left equations)
+\mathindent=\dimen118
+Applying: [2015/01/01] Make \[ robust on input line 50.
+LaTeX Info: Redefining \[ on input line 51.
+Already applied: [0000/00/00] Make \[ robust on input line 62.
+Applying: [2015/01/01] Make \] robust on input line 74.
+LaTeX Info: Redefining \] on input line 75.
+Already applied: [0000/00/00] Make \] robust on input line 83.
+)
+\jsc@mpt=\dimen119
+\jsc@mmm=\dimen120
+\jsc@smallskipamount=\skip41
+LaTeX Info: Redefining \rmfamily on input line 468.
+LaTeX Info: Redefining \sffamily on input line 471.
+LaTeX Info: Redefining \ttfamily on input line 474.
+LaTeX Info: Redefining \textmc on input line 477.
+LaTeX Info: Redefining \textgt on input line 479.
+\symmincho=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `mincho' in version `bold'
+(Font)                  JY1/mc/m/n --> JY1/gt/m/n on input line 540.
+LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
+(Font)              scaled to size 9.60999pt on input line 731.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 9.60999pt on input line 731.
+\fullwidth=\dimen121
+LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
+(Font)              scaled to size 7.68799pt on input line 883.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 7.68799pt on input line 883.
+\c@part=\count82
+\c@section=\count83
+\c@subsection=\count84
+\c@subsubsection=\count85
+\c@paragraph=\count86
+\c@subparagraph=\count87
+\@abstractbox=\box41
+\c@figure=\count88
+\c@table=\count89
+\abovecaptionskip=\skip42
+\belowcaptionskip=\skip43
+\jsc@tocl@width=\dimen122
+\@lnumwidth=\dimen123
+\bibindent=\dimen124
+
+(/usr/local/texlive/2016/texmf-dist/tex/platex/jsclasses/jslogo.sty
+Package: jslogo 2016/07/14 okumura, texjporg
+LaTeX Info: Redefining \TeX on input line 94.
+LaTeX Info: Redefining \LaTeX on input line 147.
+LaTeX Info: Redefining \LaTeXe on input line 200.
+)
+\heisei=\count90
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks15
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2016/07/10 v1.0t Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+
+! LaTeX Error: Unknown option `dviout' for package `graphics'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.91 \if
+        !\Gin@driver!
+? 
+! Emergency stop.
+ ...                                              
+                                                  
+l.91 \if
+        !\Gin@driver!
+The option `dviout' was not declared in package `graphics', perhaps you
+misspelled its name. Try typing  <return>  to proceed.
+
+ 
+Here is how much of TeX's memory you used:
+ 559 strings out of 493683
+ 6806 string characters out of 6149653
+ 63659 words of memory out of 5000000
+ 4189 multiletter control sequences out of 15000+600000
+ 8372 words of font info for 36 fonts, out of 8000000 for 9000
+ 934 hyphenation exceptions out of 8191
+ 25i,0n,24p,283b,85s stack positions out of 5000i,500n,10000p,200000b,80000s
+No pages of output.
+ount91
+LaTeX Info: Redefining \frac on input line 199.
+\uproot@=\count92
+\leftroot@=\count93
+LaTeX Info: Redefining \overline on input line 297.
+\classnum@=\count94
+\DOTSCASE@=\count95
+LaTeX Info: Redefining \ldots on input line 394.
+LaTeX Info: Redefining \dots on input line 397.
+LaTeX Info: Redefining \cdots on input line 518.
+\Mathstrutbox@=\box42
+\strutbox@=\box43
+\big@size=\dimen129
+LaTeX Font Info:    Redeclaring font encoding OML on input line 634.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 635.
+\macc@depth=\count96
+\c@MaxMatrixCols=\count97
+\dotsspace@=\muskip10
+\c@parentequation=\count98
+\dspbrk@lvl=\count99
+\tag@help=\toks17
+\row@=\count100
+\column@=\count101
+\maxfields@=\count102
+\andhelp@=\toks18
+\eqnshift@=\dimen130
+\alignsep@=\dimen131
+\tagshift@=\dimen132
+\tagwidth@=\dimen133
+\totwidth@=\dimen134
+\lineht@=\dimen135
+\@envbody=\toks19
+\multlinegap=\skip45
+\multlinetaggap=\skip46
+\mathdisplay@stack=\toks20
+LaTeX Info: Redefining \[ on input line 2739.
+LaTeX Info: Redefining \] on input line 2740.
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup5
+\symAMSb=\mathgroup6
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2016/09/06 3.8 Extensive control of page headers and footers
+\fancy@headwidth=\skip47
+\f@ncyO@elh=\skip48
+\f@ncyO@erh=\skip49
+\f@ncyO@olh=\skip50
+\f@ncyO@orh=\skip51
+\f@ncyO@elf=\skip52
+\f@ncyO@erf=\skip53
+\f@ncyO@olf=\skip54
+\f@ncyO@orf=\skip55
+)
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 9.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: dvips.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 67.
+\captionmargin=\dimen136
+\captionmargin@=\dimen137
+\captionwidth=\dimen138
+\caption@tempdima=\dimen139
+\caption@indent=\dimen140
+\caption@parindent=\dimen141
+\caption@hangindent=\dimen142
+Package caption Info: Unknown document class (or package),
+(caption)             standard defaults will be used.
+)
+
+Package caption Warning: Unsupported document class (or package) detected,
+(caption)                usage of the caption package is not recommended.
+See the caption package documentation for explanation.
+
+Package caption Info: \@makecaption = \long macro:#1#2->{\small \advance \lefts
+kip .0628\linewidth \advance \rightskip .0628\linewidth \vskip \abovecaptionski
+p \sbox \@tempboxa {#1\hskip 1zw\on input line 24.
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 4.805pt on input line 24.
+
+! Undefined control sequence.
+l.28     \frac{1}{n} \| \tilda
+                              {\mathbf{H}}^{-1} \mathbf{H} \mathbf{y} \|^2
+? 
+! Emergency stop.
+l.28     \frac{1}{n} \| \tilda
+                              {\mathbf{H}}^{-1} \mathbf{H} \mathbf{y} \|^2
+End of file on the terminal!
+
+ 
+Here is how much of TeX's memory you used:
+ 1494 strings out of 493683
+ 16783 string characters out of 6149653
+ 74184 words of memory out of 5000000
+ 5085 multiletter control sequences out of 15000+600000
+ 17924 words of font info for 81 fonts, out of 8000000 for 9000
+ 934 hyphenation exceptions out of 8191
+ 27i,9n,43p,294b,244s stack positions out of 5000i,500n,10000p,200000b,80000s
+No pages of output.
+ntrol sequences out of 15000+600000
+ 18512 words of font info for 84 fonts, out of 8000000 for 9000
+ 934 hyphenation exceptions out of 8191
+ 27i,13n,43p,294b,244s stack positions out of 5000i,500n,10000p,200000b,80000s
+No pages of output.
+
+No pages of output.
+ it.
+
+ 
+Here is how much of TeX's memory you used:
+ 1496 strings out of 493683
+ 16937 string characters out of 6149653
+ 78184 words of memory out of 5000000
+ 5086 multiletter control sequences out of 15000+600000
+ 18512 words of font info for 84 fonts, out of 8000000 for 9000
+ 934 hyphenation exceptions out of 8191
+ 27i,10n,43p,294b,244s stack positions out of 5000i,500n,10000p,200000b,80000s
+No pages of output.
+
+                                
+l.126 ...}^{-1} \mathbf{H} \mathbf{y} &=& \|^2 &=&
+                                                   \sum_i^n \left( y_i - \su...
+
+? 
+! Emergency stop.
+<template> \egroup \endtemplate 
+                                
+l.126 ...}^{-1} \mathbf{H} \mathbf{y} &=& \|^2 &=&
+                                                   \sum_i^n \left( y_i - \su...
+End of file on the terminal!
+
+ 
+Here is how much of TeX's memory you used:
+ 1502 strings out of 493683
+ 16887 string characters out of 6149653
+ 86184 words of memory out of 5000000
+ 5091 multiletter control sequences out of 15000+600000
+ 19054 words of font info for 86 fonts, out of 8000000 for 9000
+ 934 hyphenation exceptions out of 8191
+ 34i,15n,43p,294b,332s stack positions out of 5000i,500n,10000p,200000b,80000s
+Output written on report_2.dvi (2 pages, 6220 bytes).
+/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
+(Font)              scaled to size 13.83836pt on input line 38.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 13.83836pt on input line 38.
+LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
+(Font)              scaled to size 13.83836pt on input line 38.
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 13.83836pt on input line 38.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 6.72699pt on input line 39.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 4.805pt on input line 39.
+
+
+! Package caption Error: \caption outside float.
+
+See the caption package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.44 ...tion=Regression Part,label=src_regression]
+                                                  
+? 
+! Emergency stop.
+ ...                                              
+                                                  
+l.44 ...tion=Regression Part,label=src_regression]
+                                                  
+If you do not understand this error, please take a closer look
+at the documentation of the `caption' package, especially the
+section about errors.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+ 
+Here is how much of TeX's memory you used:
+ 4369 strings out of 493683
+ 61449 string characters out of 6149653
+ 158564 words of memory out of 5000000
+ 792
+(Font)              scaled to size 4.805pt on input line 40.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <5> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 40.
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 4.805pt on input line 40.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 45.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <5> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 45.
+LaTeX Font Info:    Font shape `JT1/mc/m/it' in size <5> not available
+(Font)              Font shape `JT1/mc/m/n' tried instead on input line 85.
+LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
+(Font)              scaled to size 4.805pt on input line 85.
+LaTeX Font Info:    Font shape `JY1/mc/m/it' in size <5> not available
+(Font)              Font shape `JY1/mc/m/n' tried instead on input line 85.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 4.805pt on input line 85.
+File: figs/kernel_redge_basic.eps Graphic file (type eps)
+
+<figs/kernel_redge_basic.eps>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 114.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/omlcmr.fd
+File: omlcmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <5> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 114.
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <10> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 175.
+LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
+(Font)              scaled to size 9.60999pt on input line 175.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <10> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 175.
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 9.60999pt on input line 175.
+ [1
+
+]
+Overfull \vbox (66.18143pt too high) has occurred while \output is active []
+
+LaTeX Font Info:    Font shape `JT1/mc/m/sl' in size <10> not available
+(Font)              Font shape `JT1/mc/m/n' tried instead on input line 175.
+LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
+(Font)              scaled to size 9.60999pt on input line 175.
+LaTeX Font Info:    Font shape `JY1/mc/m/sl' in size <10> not available
+(Font)              Font shape `JY1/mc/m/n' tried instead on input line 175.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 9.60999pt on input line 175.
+
+[2]
+! Undefined control sequence.
+l.177 \noindentこのコ
+                     ードを実行することにより、$\lambda=0.1$、$h=0.78$のとき...
+
+? 
+! Emergency stop.
+l.177 \noindentこのコ
+                     ードを実行することにより、$\lambda=0.1$、$h=0.78$のとき...
+End of file on the terminal!
+
+ 
+Here is how much of TeX's memory you used:
+ 4861 strings out of 493683
+ 67264 string characters out of 6149653
+ 249871 words of memory out of 5000000
+ 8392 multiletter control sequences out of 15000+600000
+ 18791 words of font info for 84 fonts, out of 8000000 for 9000
+ 934 hyphenation exceptions out of 8191
+ 36i,14n,43p,294b,1491s stack positions out of 5000i,500n,10000p,200000b,80000s
+Output written on report_2.dvi (2 pages, 26144 bytes).
+               
+                                                  
+l.253   \newline
+                
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+ 
+Here is how much of TeX's memory you used:
+ 4867 strings out of 493683
+ 67479 string characters out of 6149653
+ 249871 words of memory out of 5000000
+ 8395 multiletter control sequences out of 15000+600000
+ 19781 words of font info for 89 f000 for 9000
+ 934 hyphenation exceptions out of 8191
+ 36i,14n,43p,294b,1491s stack positions out of 5000i,500n,10000p,200000b,80000s
+Output written on report_2.dvi (3 pages, 28548 bytes).
+s, 28144 bytes).

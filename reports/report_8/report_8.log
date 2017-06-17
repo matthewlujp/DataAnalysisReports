@@ -1,0 +1,820 @@
+This is e-pTeX, Version 3.14159265-p3.7-160201-2.6 (utf8.euc) (TeX Live 2016) (preloaded format=platex 2017.1.16)  13 JUN 2017 09:01
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**report_8.tex
+(./report_8.tex
+pLaTeX2e <2016/11/29> (based on LaTeX2e <2016/03/31> patch level 3)
+Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
+(/usr/local/texlive/2016/texmf-dist/tex/platex/jsclasses/jsarticle.cls
+Document Class: jsarticle 2017/01/13 okumura, texjporg
+\jsc@mpt=\dimen118
+\jsc@mmm=\dimen119
+\jsc@smallskipamount=\skip41
+LaTeX Info: Redefining \rmfamily on input line 468.
+LaTeX Info: Redefining \sffamily on input line 471.
+LaTeX Info: Redefining \ttfamily on input line 474.
+LaTeX Info: Redefining \textmc on input line 477.
+LaTeX Info: Redefining \textgt on input line 479.
+\symmincho=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `mincho' in version `bold'
+(Font)                  JY1/mc/m/n --> JY1/gt/m/n on input line 540.
+LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
+(Font)              scaled to size 9.60999pt on input line 731.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 9.60999pt on input line 731.
+\fullwidth=\dimen120
+LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
+(Font)              scaled to size 7.68799pt on input line 883.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 7.68799pt on input line 883.
+\c@part=\count82
+\c@section=\count83
+\c@subsection=\count84
+\c@subsubsection=\count85
+\c@paragraph=\count86
+\c@subparagraph=\count87
+\@abstractbox=\box41
+\c@figure=\count88
+\c@table=\count89
+\abovecaptionskip=\skip42
+\belowcaptionskip=\skip43
+\jsc@tocl@width=\dimen121
+\@lnumwidth=\dimen122
+\bibindent=\dimen123
+(/usr/local/texlive/2016/texmf-dist/tex/platex/jsclasses/jslogo.sty
+Package: jslogo 2016/07/14 okumura, texjporg
+LaTeX Info: Redefining \TeX on input line 94.
+LaTeX Info: Redefining \LaTeX on input line 147.
+LaTeX Info: Redefining \LaTeXe on input line 200.
+)
+\heisei=\count90
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks15
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2016/07/10 v1.0t Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: dvipdfmx.def on input line 99.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics-def/dvipdfmx.def
+File: dvipdfmx.def 2016/07/11 v4.12 LaTeX color/graphics driver for dvipdfmx (L
+3/ChoF)
+))
+\Gin@req@height=\dimen124
+\Gin@req@width=\dimen125
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: dvipdfmx.def on input line 147.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/dvipsnam.def
+File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
+))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2016/06/28 v2.15d AMS math features
+\@mathmargin=\skip44
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks16
+\ex@=\dimen126
+))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen127
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count91
+LaTeX Info: Redefining \frac on input line 199.
+\uproot@=\count92
+\leftroot@=\count93
+LaTeX Info: Redefining \overline on input line 297.
+\classnum@=\count94
+\DOTSCASE@=\count95
+LaTeX Info: Redefining \ldots on input line 394.
+LaTeX Info: Redefining \dots on input line 397.
+LaTeX Info: Redefining \cdots on input line 518.
+\Mathstrutbox@=\box42
+\strutbox@=\box43
+\big@size=\dimen128
+LaTeX Font Info:    Redeclaring font encoding OML on input line 634.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 635.
+\macc@depth=\count96
+\c@MaxMatrixCols=\count97
+\dotsspace@=\muskip10
+\c@parentequation=\count98
+\dspbrk@lvl=\count99
+\tag@help=\toks17
+\row@=\count100
+\column@=\count101
+\maxfields@=\count102
+\andhelp@=\toks18
+\eqnshift@=\dimen129
+\alignsep@=\dimen130
+\tagshift@=\dimen131
+\tagwidth@=\dimen132
+\totwidth@=\dimen133
+\lineht@=\dimen134
+\@envbody=\toks19
+\multlinegap=\skip45
+\multlinetaggap=\skip46
+\mathdisplay@stack=\toks20
+LaTeX Info: Redefining \[ on input line 2739.
+LaTeX Info: Redefining \] on input line 2740.
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup5
+\symAMSb=\mathgroup6
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/circuitikz/circuitikz.sty
+Package: circuitikz 2016/09/08{} The CircuiTikz circuit drawing package version
+ 0.7
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.te
+x
+\pgfutil@everybye=\toks21
+\pgfutil@tempdima=\dimen135
+\pgfutil@tempdimb=\dimen136
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-li
+sts.tex))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box44
+(/usr/local/texlive/2016/texmf-dist/tex/latex/ms/everyshi.sty
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+Package: pgfrcs 2015/08/07 v3.0.1a (rcs-revision 1.31)
+))
+Package: pgf 2015/08/07 v3.0.1a (rcs-revision 1.15)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks22
+\pgfkeys@temptoks=\toks23
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.c
+ode.tex
+\pgfkeys@tmptoks=\toks24
+))
+\pgf@x=\dimen137
+\pgf@y=\dimen138
+\pgf@xa=\dimen139
+\pgf@ya=\dimen140
+\pgf@xb=\dimen141
+\pgf@yb=\dimen142
+\pgf@xc=\dimen143
+\pgf@yc=\dimen144
+\w@pgf@writea=\write3
+\r@pgf@reada=\read1
+\c@pgf@counta=\count103
+\c@pgf@countb=\count104
+\c@pgf@countc=\count105
+\c@pgf@countd=\count106
+\t@pgf@toka=\toks25
+\t@pgf@tokb=\toks26
+\t@pgf@tokc=\toks27
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
+)
+Driver file for pgf: pgfsys-dvipdfmx.def
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-dvipdfmx
+.def
+File: pgfsys-dvipdfmx.def 2014/07/09  (rcs-revision 1.14)
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-p
+df.def
+File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
+)
+\pgfsys@objnum=\count107
+))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.
+code.tex
+File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
+\pgfsyssoftpath@smallbuffer@items=\count108
+\pgfsyssoftpath@bigbuffer@items=\count109
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.
+code.tex
+File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
+)) (/usr/local/texlive/2016/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: dvipdfmx.def on input line 225.
+LaTeX Info: Redefining \color on input line 709.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen145
+\pgfmath@count=\count110
+\pgfmath@box=\box45
+\pgfmath@toks=\toks28
+\pgfmath@stack@operand=\toks29
+\pgfmath@stack@operation=\toks30
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.
+tex
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic
+.code.tex)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigo
+nometric.code.tex)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.rando
+m.code.tex)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.compa
+rison.code.tex)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.
+code.tex)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round
+.code.tex)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.
+code.tex)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integ
+erarithmetics.code.tex)))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count111
+))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.co
+de.tex
+File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
+\pgf@picminx=\dimen146
+\pgf@picmaxx=\dimen147
+\pgf@picminy=\dimen148
+\pgf@picmaxy=\dimen149
+\pgf@pathminx=\dimen150
+\pgf@pathmaxx=\dimen151
+\pgf@pathminy=\dimen152
+\pgf@pathmaxy=\dimen153
+\pgf@xx=\dimen154
+\pgf@xy=\dimen155
+\pgf@yx=\dimen156
+\pgf@yy=\dimen157
+\pgf@zx=\dimen158
+\pgf@zy=\dimen159
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconst
+ruct.code.tex
+File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
+\pgf@path@lastx=\dimen160
+\pgf@path@lasty=\dimen161
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage
+.code.tex
+File: pgfcorepathusage.code.tex 2014/11/02  (rcs-revision 1.24)
+\pgf@shorten@end@additional=\dimen162
+\pgf@shorten@start@additional=\dimen163
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.co
+de.tex
+File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
+\pgfpic=\box46
+\pgf@hbox=\box47
+\pgf@layerbox@main=\box48
+\pgf@picture@serial@count=\count112
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicst
+ate.code.tex
+File: pgfcoregraphicstate.code.tex 2014/11/02  (rcs-revision 1.12)
+\pgflinewidth=\dimen164
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransform
+ations.code.tex
+File: pgfcoretransformations.code.tex 2015/08/07  (rcs-revision 1.20)
+\pgf@pt@x=\dimen165
+\pgf@pt@y=\dimen166
+\pgf@pt@temp=\dimen167
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.cod
+e.tex
+File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.c
+ode.tex
+File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathproce
+ssing.code.tex
+File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.co
+de.tex
+File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
+\pgfarrowsep=\dimen168
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.cod
+e.tex
+File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
+\pgf@max=\dimen169
+\pgf@sys@shading@range@num=\count113
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.cod
+e.tex
+File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.
+code.tex
+File: pgfcoreexternal.code.tex 2014/07/09  (rcs-revision 1.21)
+\pgfexternal@startupbox=\box49
+))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.co
+de.tex
+File: pgfcorelayers.code.tex 2013/07/18  (rcs-revision 1.7)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretranspare
+ncy.code.tex
+File: pgfcoretransparency.code.tex 2013/09/30  (rcs-revision 1.5)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.
+code.tex
+File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
+)))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.cod
+e.tex
+File: pgfmoduleshapes.code.tex 2014/03/21  (rcs-revision 1.35)
+\pgfnodeparttextbox=\box50
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.
+tex
+File: pgfmoduleplot.code.tex 2015/08/03  (rcs-revision 1.13)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
+-0-65.sty
+Package: pgfcomp-version-0-65 2007/07/03 v3.0.1a (rcs-revision 1.7)
+\pgf@nodesepstart=\dimen170
+\pgf@nodesepend=\dimen171
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
+-1-18.sty
+Package: pgfcomp-version-1-18 2007/07/23 v3.0.1a (rcs-revision 1.1)
+))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)
+) (/usr/local/texlive/2016/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
+\pgffor@iter=\dimen172
+\pgffor@skip=\dimen173
+\pgffor@stack=\toks31
+\pgffor@toks=\toks32
+))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.cod
+e.tex
+Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothan
+dlers.code.tex
+File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
+\pgf@plot@mark@count=\count114
+\pgfplotmarksize=\dimen174
+)
+\tikz@lastx=\dimen175
+\tikz@lasty=\dimen176
+\tikz@lastxsaved=\dimen177
+\tikz@lastysaved=\dimen178
+\tikzleveldistance=\dimen179
+\tikzsiblingdistance=\dimen180
+\tikz@figbox=\box51
+\tikz@figbox@bg=\box52
+\tikz@tempbox=\box53
+\tikz@tempbox@bg=\box54
+\tikztreelevel=\count115
+\tikznumberofchildren=\count116
+\tikznumberofcurrentchild=\count117
+\tikz@fig@count=\count118
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.cod
+e.tex
+File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
+\pgfmatrixcurrentrow=\count119
+\pgfmatrixcurrentcolumn=\count120
+\pgf@matrix@numberofcolumns=\count121
+)
+\tikz@expandcount=\count122
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
+)))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarycalc.code.tex
+File: tikzlibrarycalc.code.tex 2013/07/15 v3.0.1a (rcs-revision 1.9)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.
+code.tex
+File: pgflibraryarrows.code.tex 2013/09/23 v3.0.1a (rcs-revision 1.16)
+\arrowsize=\dimen181
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/circuitikz/pgfcirc.defines.tex
+\pgf@circ@res@up=\dimen182
+\pgf@circ@res@down=\dimen183
+\pgf@circ@res@zero=\dimen184
+\pgf@circ@res@left=\dimen185
+\pgf@circ@res@right=\dimen186
+\pgf@circ@res@other=\dimen187
+\pgf@circ@res@step=\dimen188
+\pgf@circ@res@temp=\dimen189
+\pgfstartlinewidth=\dimen190
+\pgf@circ@Rlen=\dimen191
+) (/usr/local/texlive/2016/texmf-dist/tex/generic/circuitikz/pgfcircutils.tex)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/circuitikz/pgfcircmath.tex)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/circuitikz/pgfcircshapes.tex)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/circuitikz/pgfcircmonopoles.tex
+) (/usr/local/texlive/2016/texmf-dist/tex/generic/circuitikz/pgfcircbipoles.tex
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/circuitikz/pgfcirctripoles.tex)
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/circuitikz/pgfcircquadpoles.tex
+) (/usr/local/texlive/2016/texmf-dist/tex/generic/circuitikz/pgfcirclabel.tex)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/circuitikz/pgfcircvoltage.tex)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/circuitikz/pgfcirccurrent.tex)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/circuitikz/pgfcircpath.tex))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/cases/cases.sty
+Package: cases 2002/05/02 ver 2.5 
+)
+(/usr/local/texlive/2016/texmf-dist/tex/platex/japanese-otf-uptex/otf.sty
+Package: otf 2013/11/17 v1.7b6 psitau, u0.17 ttk
+LaTeX Font Info:    Redeclaring symbol font `mincho' on input line 279.
+LaTeX Font Info:    Overwriting symbol font `mincho' in version `normal'
+(Font)                  JY1/mc/m/n --> JY1/hmc/m/n on input line 279.
+LaTeX Font Info:    Overwriting symbol font `mincho' in version `bold'
+(Font)                  JY1/gt/m/n --> JY1/hmc/m/n on input line 279.
+LaTeX Font Info:    Overwriting symbol font `mincho' in version `bold'
+(Font)                  JY1/hmc/m/n --> JY1/hmc/bx/n on input line 281.
+LaTeX Font Info:    Redeclaring math alphabet \mathgt on input line 282.
+LaTeX Font Info:    Overwriting math alphabet `\mathgt' in version `normal'
+(Font)                  JY1/gt/m/n --> JY1/hgt/m/n on input line 282.
+LaTeX Font Info:    Overwriting math alphabet `\mathgt' in version `bold'
+(Font)                  JY1/gt/m/n --> JY1/hgt/m/n on input line 282.
+LaTeX Font Info:    Overwriting math alphabet `\mathgt' in version `bold'
+(Font)                  JY1/hgt/m/n --> JY1/hgt/bx/n on input line 283.
+
+(/usr/local/texlive/2016/texmf-dist/tex/platex/japanese-otf/ajmacros.sty
+Package: ajmacros 2005/12/25 13:52 iNOUE Koich! <inoue@ma.ns.musashi-tech.ac.jp
+>
+\@tempcntc=\count123
+\@tempcntd=\count124
+\@tempcnte=\count125
+\@tempcntf=\count126
+))
+(/usr/local/texlive/2016/texmf-dist/tex/platex/base/ascmac.sty
+Package: ascmac 2016/08/21 v2.0c ascmac wrapper (community edition) 
+
+(/usr/local/texlive/2016/texmf-dist/tex/platex/base/tascmac.sty
+Package: tascmac 2016/08/21 v2.0c ascmac package (community edition) 
+\@savetbaselineshift=\dimen192
+\@saveybaselineshift=\dimen193
+\scb@x=\box55
+\scscb@x=\box56
+\@bw=\dimen194
+\@nbox=\box57
+\@nbody=\box58
+\@scw=\dimen195
+\@itemh=\dimen196
+\@iboxpos=\toks33
+\@iboxstr=\box59
+\@bwsp=\box60
+\@@bwsp=\box61
+\@bcal=\count127
+\shaderule=\dimen197
+))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2016/04/07 v1.8p multicolumn formatting (FMi)
+\c@tracingmulticols=\count128
+\mult@box=\box62
+\multicol@leftmargin=\dimen198
+\c@unbalance=\count129
+\c@collectmore=\count130
+\doublecol@number=\count131
+\multicoltolerance=\count132
+\multicolpretolerance=\count133
+\full@width=\dimen199
+\page@free=\dimen256
+\premulticols=\dimen257
+\postmulticols=\dimen258
+\multicolsep=\skip47
+\multicolbaselineskip=\skip48
+\partial@page=\box63
+\last@line=\box64
+\maxbalancingoverflow=\dimen259
+\mult@rightbox=\box65
+\mult@grightbox=\box66
+\mult@gfirstbox=\box67
+\mult@firstbox=\box68
+\@tempa=\box69
+\@tempa=\box70
+\@tempa=\box71
+\@tempa=\box72
+\@tempa=\box73
+\@tempa=\box74
+\@tempa=\box75
+\@tempa=\box76
+\@tempa=\box77
+\@tempa=\box78
+\@tempa=\box79
+\@tempa=\box80
+\@tempa=\box81
+\@tempa=\box82
+\@tempa=\box83
+\@tempa=\box84
+\@tempa=\box85
+\c@columnbadness=\count134
+\c@finalcolumnbadness=\count135
+\last@try=\dimen260
+\multicolovershoot=\dimen261
+\multicolundershoot=\dimen262
+\mult@nat@firstbox=\box86
+\colbreak@box=\box87
+\mc@col@check@num=\count136
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/pifont.sty
+Package: pifont 2005/04/12 PSNFSS-v9.2a Pi font support (SPQR) 
+
+(I search kanjifont definition file: . . ) (I search font definition file: . .
+. . . . . )
+LaTeX Font Info:    Font shape `JT1/hmc/m/n' will be
+(Font)              scaled to size 9.24683pt on input line 63.
+LaTeX Font Info:    Font shape `JY1/hmc/m/n' will be
+(Font)              scaled to size 9.24683pt on input line 63.
+LaTeX Font Info:    Try loading font information for U+pzd on input line 63.
+ (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/upzd.fd
+File: upzd.fd 2001/06/04 font definitions for U/pzd.
+)
+(I search kanjifont definition file: . . ) (I search font definition file: . .
+. . . . . )
+LaTeX Font Info:    Try loading font information for U+psy on input line 64.
+ (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/upsy.fd
+File: upsy.fd 2001/06/04 font definitions for U/psy.
+))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip11
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2016/04/27 v1.618033 publication quality tables
+\heavyrulewidth=\dimen263
+\lightrulewidth=\dimen264
+\cmidrulewidth=\dimen265
+\belowrulesep=\dimen266
+\belowbottomsep=\dimen267
+\aboverulesep=\dimen268
+\abovetopsep=\dimen269
+\cmidrulesep=\dimen270
+\cmidrulekern=\dimen271
+\defaultaddspace=\dimen272
+\@cmidla=\count137
+\@cmidlb=\count138
+\@aboverulesep=\dimen273
+\@belowrulesep=\dimen274
+\@thisruleclass=\count139
+\@lastruleclass=\count140
+\@thisrulewidth=\dimen275
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/tools/bm.sty
+Package: bm 2016/07/07 v1.2b Bold Symbol Support (DPC/FMi)
+\symboldoperators=\mathgroup7
+\symboldletters=\mathgroup8
+\symboldsymbols=\mathgroup9
+\symboldmincho=\mathgroup10
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 142.
+LaTeX Info: Redefining \bm on input line 208.
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count141
+\lst@gtempboxa=\box88
+\lst@token=\toks34
+\lst@length=\count142
+\lst@currlwidth=\dimen276
+\lst@column=\count143
+\lst@pos=\count144
+\lst@lostspace=\dimen277
+\lst@width=\dimen278
+\lst@newlines=\count145
+\lst@lineno=\count146
+\lst@maxwidth=\dimen279
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
+\c@lstnumber=\count147
+\lst@skipnumbers=\count148
+\lst@framebox=\box89
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2015/06/04 1.6 listings configuration
+))
+Package: listings 2015/06/04 1.6 (Carsten Heinz)
+
+
+! LaTeX Error: File `jlisting.sty' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: sty)
+
+Enter file name: 
+(/usr/local/texlive/2016/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2016/09/06 3.8 Extensive control of page headers and footers
+\fancy@headwidth=\skip49
+\f@ncyO@elh=\skip50
+\f@ncyO@erh=\skip51
+\f@ncyO@olh=\skip52
+\f@ncyO@orh=\skip53
+\f@ncyO@elf=\skip54
+\f@ncyO@erf=\skip55
+\f@ncyO@olf=\skip56
+\f@ncyO@orf=\skip57
+)
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 25.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 67.
+\captionmargin=\dimen280
+\captionmargin@=\dimen281
+\captionwidth=\dimen282
+\caption@tempdima=\dimen283
+\caption@indent=\dimen284
+\caption@parindent=\dimen285
+\caption@hangindent=\dimen286
+Package caption Info: Unknown document class (or package),
+(caption)             standard defaults will be used.
+)
+
+Package caption Warning: Unsupported document class (or package) detected,
+(caption)                usage of the caption package is not recommended.
+See the caption package documentation for explanation.
+
+Package caption Info: \@makecaption = \long macro:#1#2->{\small \advance \lefts
+kip .0628\linewidth \advance \rightskip .0628\linewidth \vskip \abovecaptionski
+p \sbox \@tempboxa {#1\hskip 1zw\relax #2}\ifdim \wd \@tempboxa <\hsize \center
+ing \fi #1\hskip 1zw\relax #2\par \vskip \belowcaptionskip }.
+\c@ContinuedFloat=\count149
+Package caption Info: listings package is loaded.
+) (/usr/local/texlive/2016/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2015/06/04 1.6 listings language file
+)
+(./report_8.aux)
+\openout1 = `report_8.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+ ABD: EveryShipout initializing macros
+\c@lstlisting=\count150
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+LaTeX Font Info:    Font shape `JT1/hmc/m/n' will be
+(Font)              scaled to size 15.9785pt on input line 73.
+LaTeX Font Info:    Font shape `JY1/hmc/m/n' will be
+(Font)              scaled to size 15.9785pt on input line 73.
+LaTeX Font Info:    Font shape `JT1/hmc/m/n' will be
+(Font)              scaled to size 11.09619pt on input line 73.
+LaTeX Font Info:    Font shape `JY1/hmc/m/n' will be
+(Font)              scaled to size 11.09619pt on input line 73.
+LaTeX Font Info:    Font shape `JY1/hmc/m/n' will be
+(Font)              scaled to size 7.39746pt on input line 73.
+LaTeX Font Info:    Font shape `JY1/hmc/m/n' will be
+(Font)              scaled to size 5.5481pt on input line 73.
+LaTeX Font Info:    Try loading font information for U+msa on input line 73.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 73.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Font shape `JY1/hmc/bx/n' in size <12> not available
+(Font)              Font shape `JY1/hgt/m/n' tried instead on input line 73.
+LaTeX Font Info:    Font shape `JY1/hgt/m/n' will be
+(Font)              scaled to size 11.09619pt on input line 73.
+LaTeX Font Info:    Font shape `JY1/hmc/bx/n' in size <8> not available
+(Font)              Font shape `JY1/hgt/m/n' tried instead on input line 73.
+LaTeX Font Info:    Font shape `JY1/hgt/m/n' will be
+(Font)              scaled to size 7.39746pt on input line 73.
+LaTeX Font Info:    Font shape `JY1/hmc/bx/n' in size <6> not available
+(Font)              Font shape `JY1/hgt/m/n' tried instead on input line 73.
+LaTeX Font Info:    Font shape `JY1/hgt/m/n' will be
+(Font)              scaled to size 5.5481pt on input line 73.
+LaTeX Font Info:    Font shape `JT1/hmc/m/n' will be
+(Font)              scaled to size 13.31541pt on input line 75.
+LaTeX Font Info:    Font shape `JY1/hmc/m/n' will be
+(Font)              scaled to size 13.31541pt on input line 75.
+LaTeX Font Info:    Font shape `JT1/hgt/m/n' will be
+(Font)              scaled to size 13.31541pt on input line 75.
+LaTeX Font Info:    Font shape `JY1/hgt/m/n' will be
+(Font)              scaled to size 13.31541pt on input line 75.
+LaTeX Font Info:    Font shape `JY1/hmc/m/n' will be
+(Font)              scaled to size 6.47278pt on input line 83.
+LaTeX Font Info:    Font shape `JY1/hmc/m/n' will be
+(Font)              scaled to size 4.62341pt on input line 83.
+LaTeX Font Info:    Font shape `JY1/hmc/bx/n' in size <10> not available
+(Font)              Font shape `JY1/hgt/m/n' tried instead on input line 83.
+LaTeX Font Info:    Font shape `JY1/hgt/m/n' will be
+(Font)              scaled to size 9.24683pt on input line 83.
+LaTeX Font Info:    Font shape `JY1/hmc/bx/n' in size <7> not available
+(Font)              Font shape `JY1/hgt/m/n' tried instead on input line 83.
+LaTeX Font Info:    Font shape `JY1/hgt/m/n' will be
+(Font)              scaled to size 6.47278pt on input line 83.
+LaTeX Font Info:    Font shape `JY1/hmc/bx/n' in size <5> not available
+(Font)              Font shape `JY1/hgt/m/n' tried instead on input line 83.
+LaTeX Font Info:    Font shape `JY1/hgt/m/n' will be
+(Font)              scaled to size 4.62341pt on input line 83.
+LaTeX Font Info:    Font shape `JT1/hmc/bx/n' in size <10> not available
+(Font)              Font shape `JT1/hgt/m/n' tried instead on input line 120.
+LaTeX Font Info:    Font shape `JT1/hgt/m/n' will be
+(Font)              scaled to size 9.24683pt on input line 120.
+ [1
+
+]
+
+LaTeX Font Warning: Font shape `JT1/hmc/m/sl' undefined
+(Font)              using `JT1/hmc/m/n' instead on input line 152.
+
+
+LaTeX Font Warning: Font shape `JY1/hmc/m/sl' undefined
+(Font)              using `JY1/hmc/m/n' instead on input line 152.
+
+[2] (./report_8.aux)
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 22802 strings out of 493683
+ 498821 string characters out of 6149653
+ 666424 words of memory out of 5000000
+ 26014 multiletter control sequences out of 15000+600000
+ 24107 words of font info for 107 fonts, out of 8000000 for 9000
+ 934 hyphenation exceptions out of 8191
+ 62i,11n,56p,429b,991s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on report_8.dvi (2 pages, 5608 bytes).

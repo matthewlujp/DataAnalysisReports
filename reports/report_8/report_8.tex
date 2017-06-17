@@ -1,0 +1,155 @@
+% \documentclass[fleqn]{jsarticle}
+
+% \usepackage{graphicx}
+% \usepackage{amsmath,amssymb}
+% \usepackage{amsmath}
+% \usepackage{fancyhdr}
+
+\documentclass[dvipdfmx]{jsarticle}
+\usepackage[dvipdfmx]{graphicx}
+\usepackage{color}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{circuitikz}
+\usepackage{cases}
+\usepackage{otf}
+\usepackage{ascmac,multicol,pifont,url}
+\usepackage{booktabs}
+\usepackage{bm}
+\usepackage{listings,jlisting}
+\usepackage{fancyhdr}
+
+
+
+\pagestyle{fancy}
+\fancyhead[RE,RO]{先端データ解析論 レポート}
+
+\usepackage{xcolor}
+\usepackage[justification=centering]{caption}
+\usepackage{listings}
+\renewcommand{\lstlistingname}{リスト}
+\lstset{language=Python,%
+        % basicstyle=\footnotesize,%
+        basicstyle=\tiny,%
+        commentstyle=\textit,%
+        classoffset=1,%
+        keywordstyle=\bfseries,%
+      	frame=tRBl,framesep=5pt,%
+      	showstringspaces=false,%
+        linewidth=38em,
+      	}%
+
+
+
+% \DeclareMathOperator*{\argmin}{argmin}
+\newcommand{\bmu}{{\bm{\mu}}}
+\newcommand{\bmut}{\bm{\mu}^\top}
+\newcommand{\tbmu}{\tilde{\bm{\mu}}}
+\newcommand{\hbmu}{\hat{\bm{\mu}}}
+\newcommand{\hbmut}{\hat{\bm{\mu}}^\top}
+\newcommand{\tbmut}{\tilde{\bm{\mu}}^\top}
+\newcommand{\sig}{\tilde{\bm{\Sigma}}}
+\newcommand{\siginv}{\tilde{\bm{\Sigma}}^{-1}}
+\newcommand{\bphi}{\bm{\phi}(\bm{x})}
+\newcommand{\bphit}{\bm{\phi}(\bm{x})^\top}
+
+\newcommand{\ex}{\mathbb{E}}
+\newcommand{\bmx}{\bm{x}}
+\newcommand{\bmxd}{\bm{x}{'}}
+\newcommand{\ptrain}{p_{\text{train}}}
+\newcommand{\hoge}{\mathbb{E}_{\bmxd \sim p_{\text{test}}, \bmx \sim q_\pi}}
+\newcommand{\fuga}{\mathbb{E}_{\bmxd, \tilde{\bmx}' \sim p_{\text{test}}}}
+\newcommand{\piyo}{\mathbb{E}_{\bmx, \tilde{\bmx} \sim q_\pi}}
+
+
+\newcommand{\argmax}{\mathop{\rm argmax}\limits}
+\newcommand{\argmin}{\mathop{\rm argmin}\limits}
+
+\title{先端データ解析論　第8回レポート}
+\author{電子情報学専攻　48-176403 石毛真修}
+
+
+\begin{document}
+\maketitle
+
+\section*{1}
+
+% 二乗ヒンジ損失に対する適応化正則化分類の式
+% $$
+% J(\bm{\mu}, \bm{\Sigma}) = \left(\max (0, 1-\bmut\bphi y) \right)^2 + \bphit \bm{\Sigma}\bphi + \gamma \left\{ \log \frac{\det(\sig)}{\det(\bm{\Sigma})} + (\siginv\bm{\Sigma}) + (\bmu-\tbmu)^\top \siginv (\bmu-\tbmu) \right\}
+% $$
+%
+% に対して，$\bmu$で偏微分を行うと，
+$\bmu$で偏微分すると，
+
+% $$
+% \frac{\partial J}{\partial \bmu} = \underbrace{\frac{\partial}{\partial \bmu} \left(\max (0, 1-\bmut\bphi y) \right)^2}_{(\#)} + \underbrace{\gamma \frac{\partial}{\partial \bmu} (\bmu-\tbmu)^\top \siginv (\bmu-\tbmu)}_{(\flat)}
+% $$
+$$
+\frac{\partial J}{\partial \bmu} = \frac{\partial}{\partial \bmu} \left(\max (0, 1-\bmut\bphi y) \right)^2 + \gamma \frac{\partial}{\partial \bmu} (\bmu-\tbmu)^\top \siginv (\bmu-\tbmu)
+$$
+
+右辺の第1項は，$1-\bmut\bphi y > 0$のとき，
+\begin{eqnarray*}
+  \frac{\partial}{\partial \bmu} \left(\max (0, 1-\bmut\bphi y) \right)^2 &=& \frac{\partial}{\partial \bmu} \left(1-\bmut\bphi y \right)^2 \\
+  &=& \frac{\partial}{\partial \bmu} \left(1 -2\bmut\bphi y + y^2\bmut\bphi\bmut\bphi \right) \\
+  &=& \frac{\partial}{\partial \bmu} \left(1 -2y \bphit\bmu + y^2\bmut\bphi\bphit\bmu \right) \\
+  &=& -2y\bphi + 2y^2\bphi\bphit\bmu \\
+  &=& -2y\bphi\left(1 - \bmut\bphi y\right)
+\end{eqnarray*}
+$1-\bmut\bphi y < 0$のとき，
+\begin{eqnarray*}
+  \frac{\partial}{\partial \bmu} \left(\max (0, 1-\bmut\bphi y) \right)^2 = \bm{0}
+\end{eqnarray*}
+これらをまとめて，
+$$
+\frac{\partial}{\partial \bmu} \left(\max (0, 1-\bmut\bphi y) \right)^2= -2y\bphi\max\left(0, 1 - \bmut\bphi y\right)
+$$
+
+
+右辺の第2項は，
+% $$
+% (\flat) = \gamma \left(\siginv + (\siginv)^\top\right) (\bmu - \tbmu) = 2\gamma \siginv (\bmu - \tbmu)
+% $$
+$$
+\gamma \frac{\partial}{\partial \bmu} (\bmu-\tbmu)^\top \siginv (\bmu-\tbmu)　= \gamma \left(\siginv + (\siginv)^\top\right) (\bmu - \tbmu) = 2\gamma \siginv (\bmu - \tbmu)
+$$
+
+
+
+\newpage
+
+第1項と第2項の式をまとめて，$\displaystyle\frac{\partial J}{\partial \bmu} = \bm{0}$と置くと，
+
+$$
+y\bphi\max\left(0, 1 - \hbmut\bphi y\right) = \gamma \siginv (\hbmu - \tbmu)
+$$
+
+が成り立つ．
+
+
+これを$\hbmu$について解くと，$1-\hbmut\bphi y > 0$のときは
+
+$$
+\hbmu = \tbmu + \frac{y \left(1-\tbmut\bphi y\right)}{y^2 \bphit\sig\bphi + \gamma}\sig\bphi
+$$
+
+$1-\hbmut\bphi y < 0$ のときは
+
+$$
+\hbmu = \tbmu
+$$
+
+となる．以上より，解$\hbmu$は
+
+$$
+\hbmu = \tbmu + \frac{y \max\left(0, 1-\tbmut\bphi y\right)}{y^2 \bphit\sig\bphi + \gamma}\sig\bphi
+$$
+
+と表せる．
+
+
+\end{document}
+
+
+\end{document}
